@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <meta name="color-scheme" content="light dark">
+  
+  <title>Linux 101.1: About Linux - HTPA TSA</title>
+  
+    <link rel="shortcut icon" href="/asset/favicon.png">
+  
+  
+    <link rel='manifest' href='/manifest.json'>
+  
+
+  
+<link rel="stylesheet" href="/css/var.css">
+
+  
+<link rel="stylesheet" href="/css/main.css">
+
+  
+<link rel="stylesheet" href="/css/typography.css">
+
+  
+<link rel="stylesheet" href="/css/code-highlighting.css">
+
+  
+<link rel="stylesheet" href="/css/components.css">
+
+  
+<link rel="stylesheet" href="/css/nav.css">
+
+  
+<link rel="stylesheet" href="/css/paginator.css">
+
+  
+<link rel="stylesheet" href="/css/footer.css">
+
+  
+<link rel="stylesheet" href="/css/post-list.css">
+
+  
+  
+<link rel="stylesheet" href="/css/rainbow-banner.css">
+
+  
+  
+  
+<link rel="stylesheet" href="/css/toc.css">
+
+  
+  
+  
+  
+  
+<link rel="stylesheet" href="/css/post.css">
+
+  
+  
+  
+  
+  
+
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+    <body
+        data-color-scheme="dark"
+        data-uppercase-categories="true"
+        
+        data-rainbow-banner="true"
+        data-rainbow-banner-shown="auto"
+        data-rainbow-banner-month="6"
+        data-rainbow-banner-colors="#e50000,#ff8d00,#ffee00,#008121,#004cff,#760188"
+        
+        data-config-root="/"
+        
+        data-toc="true"
+        data-toc-max-depth="2"
+        
+        
+    >
+        <nav id="theme-nav">
+    <div class="inner">
+        <a class="title" href="/">HTPA TSA</a>
+        <div class="nav-arrow"></div>
+        <div class="nav-items">
+            <a class="nav-item nav-item-home" href="/">HOME</a>
+            
+            
+            <a class="nav-item" href="/archives">ARCHIVES</a>
+            
+            
+            
+            <a class="nav-item" href="/about">ABOUT</a>
+            
+            
+            
+            <a class="nav-item" href="/presentations">PRESENTATIONS</a>
+            
+            
+            
+            <a class="nav-item nav-item-github nav-item-icon" href="https://github.com/htpa-tsa" target="_blank">&nbsp;</a>
+            
+            
+            
+            <a class="nav-item nav-item-discord nav-item-icon" href="https://discord.gg/mckKe4bSPz" target="_blank">&nbsp;</a>
+            
+            
+            
+            <a class="nav-item nav-item-remind nav-item-icon" href="https://www.remind.com/join/htpatsa" target="_blank">&nbsp;</a>
+            
+            
+        </div>
+    </div>
+</nav>
+        <script src="https://kit.fontawesome.com/129342a70b.js" crossorigin="anonymous"></script>
+
+
+<article class="post">
+    <div class="meta">
+        
+        <div class="categories text-uppercase">
+        
+            <a href="/categories/linux-101/">linux-101</a>
+        
+        </div>
+        
+
+        
+        <div class="date" id="date">
+            <span>September</span>
+            <span>25,</span>
+            <span>2022</span>
+        </div>
+        
+
+        <h2 class="title">  Linux 101.1: About Linux</h2>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="content">
+        <h3 id="What-is-Linux"><a href="#What-is-Linux" class="headerlink" title="What is Linux?"></a>What is Linux?</h3><p>Linux is a family of <strong>Unix-like operating systems</strong> (essentially derived off of the “OG” Unix).<br>Just for fun, here is a “family tree” of all the operating systems that have derived off of Unix:</p>
+<p><img src="/asset/linux-101/tree.png" alt="Linux family tree"></p>
+<p>Linux is considered a family of operating systems because there are so many different <strong>distros</strong> (distributions, sometimes called “flavors”) of Linux. Each flavor has its own purpose and specialties, and almost all of them are derived from previous distros. </p>
+<p>Here are some examples of distributions:</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.debian.org/">Debian</a></li>
+<li><a target="_blank" rel="noopener" href="https://ubuntu.com/">Ubuntu</a></li>
+<li><a target="_blank" rel="noopener" href="https://archlinux.org/">Arch</a></li>
+<li><a target="_blank" rel="noopener" href="https://linuxmint.com/">Mint</a></li>
+</ul>
+<h3 id="The-Command-line-Interface-and-Shell"><a href="#The-Command-line-Interface-and-Shell" class="headerlink" title="The Command-line Interface and Shell"></a>The Command-line Interface and Shell</h3><figure>
+    <img src="/asset/linux-101/terminal.png" alt="Ubuntu in Windows">
+    <figcaption>Ubuntu in Windows</figcaption>
+</figure>
+
+<p>The terminal is a <strong>command-line interface</strong> (in contrast to a graphical user interface, or GUI) that takes the user input and runs it through a <strong>shell</strong>. A shell is a software which allows both human users and other programs to interact with OS services. It is essentially the most important software in a UNIX-style OS. In most Linux flavors the default shell is called <strong>bash</strong> (Bourne-Again Shell), which is by the most popular shell. </p>
+<p>Think of a terminal as a line-by-line version of a file navigation&#x2F;explorer. Here is an example of a GUI:</p>
+<figure>
+    <img src="/asset/linux-101/windows-explorer.png" alt="Windows Explorer">
+    <figcaption>Windows File Explorer</figcaption>
+</figure>
+
+<p>Meanwhile, here is an example of a terminal session:</p>
+<figure>
+    <img src="/asset/linux-101/linux-ls.png" alt="Linux ls command">
+    <figcaption>Ubuntu Linux Session</figcaption>
+</figure>
+
+<p>As you can see, both the GUI and the terminal are used to navigate files and folders. While you can point and click with a GUI, the terminal is command-based.</p>
+<p>Although the terminal seems initially difficult, with use it can become much more powerful than a GUI. For example, you can use the terminal to run programs, install software, and even automate processes. For example, if you wanted to make a folder in a GUI, you would have to right-click on the parent folder, click “New”, and then click “Folder”. In the terminal, you can just type <code>mkdir foldername</code> and press enter:</p>
+<figure>
+    <img src="/asset/linux-101/mkdir.png" alt="Linux mkdir command">
+    <figcaption>Linux <code>mkdir</code> command</figcaption>
+</figure>
+
+<hr>
+<h3 id="Check-Up"><a href="#Check-Up" class="headerlink" title="Check-Up"></a>Check-Up</h3><ol>
+<li>Why is Linux considered a “family” of operating systems?</li>
+<li>What are “flavors” of Linux? What do they all have in common?</li>
+<li>What is a command-line interface, and what is the difference between a CLI and GUI?</li>
+<li>What is a terminal?</li>
+<li>What is a shell, and what are the differences between the terminal and shell?</li>
+</ol>
+
+    </div>
+
+    
+    <div class="about">
+        <h1>About this Post</h1>
+        <div class="details">
+            
+            <p>This post is written by HTPA TSA, licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc/4.0">CC BY-NC 4.0</a>.</p>
+        </div>
+    </div>
+    
+
+    
+        
+    
+</article>
+
+        <footer>
+    <div class="inner">
+        <div class="links">
+            
+            <div class="group">
+                <h4 class="title">BLOG</h4>
+                
+                <a href="/archives" class="item">Archives</a>
+                
+                <a href="/about" class="item">About</a>
+                
+                <a href="/presentations" class="item">Presentations</a>
+                
+            </div>
+            
+            <div class="group">
+                <h4 class="title">CONNECT</h4>
+                
+                <a target="_blank" rel="noopener" href="https://github.com/htpa-tsa" class="item">GitHub</a>
+                
+                <a target="_blank" rel="noopener" href="https://discord.gg/mckKe4bSPz" class="item">Discord</a>
+                
+                <a target="_blank" rel="noopener" href="https://www.remind.com/join/htpatsa" class="item">Remind</a>
+                
+            </div>
+            
+        </div>
+        <span>&copy; 2022 HTPA TSA<br>Created by <a target="_blank" rel="noopener" href="https://github.com/jktrn">@jktrn</a>!</span>
+        
+        
+            <br>
+            <div class="color-scheme-toggle" role="radiogroup" id="theme-color-scheme-toggle">
+                <label>
+                    <input type="radio" value="light">
+                    <span>Light</span>
+                </label>
+                <label>
+                    <input type="radio" value="dark">
+                    <span>Dark</span>
+                </label>
+                <label>
+                    <input type="radio" value="auto">
+                    <span>Auto</span>
+                </label>
+            </div>
+        
+    </div>
+</footer>
+
+
+        
+<script src="/js/main.js"></script>
+
+        
+        
+        
+
+        
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script>
+            window.addEventListener('load', () => {
+                ScrollReveal({ delay: 250, reset: true, easing: 'cubic-bezier(0, 0, 0, 1)' })
+                ScrollReveal().reveal('.post-list-item .cover-img img')
+                ScrollReveal().reveal('.post-list-item, .card, .content p img, .content .block-large img', { distance: '60px', origin: 'bottom', duration: 800 })
+            })
+        </script>
+        
+    </body>
+</html>
