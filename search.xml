@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>Student-Written Articles</title>
+      <link href="//blog/article-submissions/"/>
+      <url>//blog/article-submissions/</url>
+      
+        <content type="html"><![CDATA[<div class="container"><div class="card-grid"><div class="card" style="">        <div class="cover-img"><img src="/asset/blog/article-submissions/kyra-danica.jpg" alt="Kyra, Danica"></div>        <div class="content">            <p class="title">Kyra, Danica</p>            <p class="description">Game Development</p>        </div>        <div class="actions">            <div class="left">                <span class="badge no-select grey"><span title="Game Design"><i class="fa-brands fa-unity"></i></span></span><span class="badge no-select blue"><span title="Article"><i class="fa-solid fa-newspaper"></i></span></span>            </div>            <div class="right">                <a href="kyra-danica" class="action-button-primary">VIEW</a>            </div>            </div>        </div><div class="card" style="">        <div class="cover-img"><img src="/asset/blog/article-submissions/adrian-aleesa.png" alt="Adrian, Aleesa"></div>        <div class="content">            <p class="title">Adrian, Aleesa</p>            <p class="description">Competitive Programming</p>        </div>        <div class="actions">            <div class="left">                <span class="badge no-select yellow"><span title="Competitive Programming"><i class="fa-solid fa-code"></i></span></span><span class="badge no-select blue"><span title="Article"><i class="fa-solid fa-newspaper"></i></span></span>            </div>            <div class="right">                <a href="adrian-aleesa" class="action-button-primary">VIEW</a>            </div>            </div>        </div><div class="card" style="">        <div class="cover-img"><img src="/asset/blog/article-submissions/aidan-jonathan.jpg" alt="Aidan, Jonathan"></div>        <div class="content">            <p class="title">Aidan, Jonathan</p>            <p class="description">Game Design Competition</p>        </div>        <div class="actions">            <div class="left">                <span class="badge no-select grey"><span title="Game Design"><i class="fa-brands fa-unity"></i></span></span><span class="badge no-select blue"><span title="Article"><i class="fa-solid fa-newspaper"></i></span></span>            </div>            <div class="right">                <a href="aidan-jonathan" class="action-button-primary">VIEW</a>            </div>            </div>        </div><div class="card" style="">        <div class="cover-img"><img src="/asset/blog/article-submissions/joon.png" alt="Joon"></div>        <div class="content">            <p class="title">Joon</p>            <p class="description">Competitive Programming</p>        </div>        <div class="actions">            <div class="left">                <span class="badge no-select yellow"><span title="Competitive Programming"><i class="fa-solid fa-code"></i></span></span><span class="badge no-select yellow"><span title="Presentation"><i class="fa-solid fa-person-chalkboard"></i></span></span>            </div>            <div class="right">                <a href="/asset/blog/article-submissions/joon.pdf" class="action-button-primary">VIEW</a>            </div>            </div>        </div></div></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> blog </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Linux 101.3: Command Cheatsheet</title>
       <link href="//linux-101/03/"/>
       <url>//linux-101/03/</url>
