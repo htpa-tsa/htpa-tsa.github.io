@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>Aidan&#39;s Programming Tutorials</title>
+      <link href="//blog/aidans-tutorials/"/>
+      <url>//blog/aidans-tutorials/</url>
+      
+        <content type="html"><![CDATA[<div class="container"><div class="card-grid"><div class="card" style="">        <div class="cover-img"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" alt="JavaScript"></div>        <div class="content">            <p class="title">JavaScript</p>            <p class="description">Aidan's Programming Tutorials</p>        </div>        <div class="actions">            <div class="left">                <span class="badge no-select yellow"><span title="JavaScript"><i class="fab fa-js"></i></span></span>            </div>            <div class="right">                <a href="javascript" class="action-button-primary">VIEW</a>            </div>            </div>        </div><div class="card" style="">        <div class="cover-img"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt="Python"></div>        <div class="content">            <p class="title">Python</p>            <p class="description">Aidan's Programming Tutorials</p>        </div>        <div class="actions">            <div class="left">                <span class="badge no-select blue"><span title="Python"><i class="fab fa-python"></i></span></span>            </div>            <div class="right">                <a href="python" class="action-button-primary">VIEW</a>            </div>            </div>        </div></div></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> blog </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Student-Written Articles</title>
       <link href="//blog/article-submissions/"/>
       <url>//blog/article-submissions/</url>
